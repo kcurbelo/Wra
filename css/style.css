@@ -1,0 +1,461 @@
+    h1, h2, h3, h4, h5, h6  {
+      font-weight: 400;
+      color: #333;
+      font-family: 'Muli', sans-serif !important;
+
+    }
+    p, li, a, button, label {
+      color: #333;
+      font-family: 'Nunito', sans-serif;
+    }
+
+    /* Changing base font size to 14px */
+    *, ::after, ::before {
+      font-size: 14px;
+      font-family: 'Nunito', sans-serif;
+/*      text-shadow: 1px 1px 1px rgba(0,0,0,0.004);
+      text-rendering: optimizeLegibility !important;
+      -webkit-font-smoothing: antialiased !important;*/
+    }
+
+
+    /*****************************/
+    /* Bootstrap 4 overrides */
+    /*****************************/ 
+    .btn {
+      padding: .5rem 1rem;
+      font-weight: 300;
+    }
+    .navbar {
+      padding: .75rem 4rem;
+    }
+    .btn-sm {
+      padding: .25rem .5rem;
+    }
+    .btn-link {
+      color: #333;
+    }
+    .btn-link:hover {
+      color: #333;
+    } 
+    .btnMargin {
+      margin: 15px auto;
+    }
+
+    a, a:hover, button, button:hover {
+      outline: none;
+    }
+    a:hover {
+      color: inherit;
+    }
+
+    /*****************************/
+    /* Bootstrap 4 additions */
+    /*****************************/  
+    .formSpacing {
+      margin-bottom: 50px;
+    }
+    .customLink {
+      text-decoration: underline;
+      color: #768BAA;
+    }
+    .customLink:hover {
+      color:#667ea0;
+    }
+    .customNav {
+      background-color: #fff !important; 
+      border-bottom: 1px solid #e4ebec;
+    }
+    .customRadio {
+      position: absolute;
+      margin-top: 1.75rem;
+      margin-left: 1.5rem;
+    }
+    .customLabel {
+      border: 1px solid #aaa; 
+      padding: 20px 10px 20px 50px; 
+      width: 100%;
+      border-radius: 6px;
+      cursor: pointer;
+      margin-bottom: 5px;
+    }
+    .no-padding {
+      padding: 0;
+    }
+    .no-margin {
+      margin:0 !important;
+    }
+    .btm-margin {
+      margin-bottom: 15px !important;
+    }    
+    .fileSelectImg {
+      display: block;
+      width: 100%;
+      margin-bottom: 10px;
+    }
+    .cursor-pointer {
+      cursor: pointer;
+    }   
+    .underLine {
+      text-decoration: underline;
+    }   
+    .tag {
+        float: left;
+        position: absolute;
+        right: 10px;
+        top: 10px;
+        padding: 10px;
+        background-color: #F4F8F9;
+        font-size: .8rem;
+        border-radius: 4px;
+    }    
+    .browseMain {
+      background-color: #F4F8F9;
+    }
+    .browseInner {
+      min-height: 100vh;
+    }
+    .oppCardImage {
+      max-height: 200px;
+      width: 100%; 
+      height: 400px; 
+      background-image: url('https://images.pexels.com/photos/356040/pexels-photo-356040.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=750&w=1260'); 
+      background-size: cover;
+      background-position: center; 
+      position:relative;
+    }
+    .oppViewLink {
+      display: inline-block;
+      padding: 15px;
+      text-decoration: underline;
+      margin:15px auto 0 auto;
+    }
+    .customCardAccordion {
+      margin-bottom: 15px;
+    }
+    .customCardHeader {
+      border-bottom: 0;
+      padding: 0;
+    }
+    .customAccordionLink {
+      padding: 1.25rem 2rem;
+      width: 100%;
+      text-align: left;
+    }
+    .lrgBtmMargin {
+      margin-bottom: 3rem;
+    }
+    .textSmall {
+      font-size: .75rem;
+    }
+    .respWidth50 {
+      width: 50%;
+    }
+    .convoCont {
+      padding: 0 15px;
+    }
+    .messageFromOtherInner {
+      background-color: #F4F8F9; 
+      padding: 15px; 
+      border-radius: 6px;
+    }
+    .messageFromYouInner {
+      background-color: #e8eff1; 
+      padding: 15px; 
+      border-radius: 6px;      
+    }
+    .messageSendCont {
+      border:1px solid #aaa;
+      padding: 15px;
+      border-top: 0;
+    }
+    .messageFromYouCont {
+      float: right;
+    }
+    .messageLeftSide {
+      padding-right:0;
+    }
+    .messageLeftSideBorder {
+      border:1px solid #aaa;
+      min-height: 618px;
+      border-right: 0;
+    }
+    .messageLeftSideTitle {
+      padding: 15px;
+    }
+    .messagePreview {
+      cursor: pointer; 
+      padding: 10px 15px;
+    }
+    .messageRightSide {
+      padding-left:0;
+    } 
+    .messageRightSideBorder {
+      border:1px solid #aaa;
+      min-height: 550px;
+    }  
+    .messageRightSideTitle {
+      padding: 22px 15px 0 15px;
+    }     
+    @media only screen and (max-width: 800px) { 
+      .respWidth50 {
+        width: 100%;
+      }
+      .respTxtAlign {
+        text-align: center !important;
+      }
+      .messageLeftSide {
+        padding:0 15px;
+      }
+      .messageLeftSideBorder {
+        border:1px solid #aaa;
+        min-height: 618px;
+      } 
+      .messageRightSide {
+        padding:0 15px;
+      }       
+
+    }
+
+    /*****************************/
+    /* Left side & right side styles */
+    /*****************************/  
+
+    /********** Right Side **********/
+    .rightSideStyle {
+      padding-top: 15px; 
+      padding-bottom: 15px; 
+      background-color: #F4F8F9;   
+    }
+    .rightSideStyleInner {
+      padding: 15px 0; 
+      border-radius: 6px;
+      background-color: #fff;
+      border: 1px solid #e4ebec;        
+    }
+    .btmLegal {
+      color: #6d6d6d; 
+      font-size: .75rem;
+    }
+
+    /********** Left Side **********/  
+    
+    .leftNavHeader {
+      margin-left: -10px;
+      font-weight: bold;
+    }
+    .leftSideStyle {
+      border-right:1px solid #e4ebec;
+      min-height: 100vh;
+      padding-top:15px;
+      background-color: #fff;
+    }
+    /* Adds custom active style */
+    .nav-pills .nav-link.nav-active, .nav-pills .show>.nav-link {
+      color: #292f33;
+      background-color:#F4F8F9;
+      border-left: 5px solid #029EA3;
+      padding: .9rem 10px;
+      font-weight: 600;
+      margin-left: 10px;       
+    }
+    /* Left nav - Link color change */
+    .nav-pills .nav-item a {
+        color: #292f33;
+    }
+    /* Left nav - Link color change - hover */
+    .nav-pills .nav-item a:hover {
+        /*color: rgba(0, 0, 0, 0.8);*/
+      background-color:rgba(244, 248, 249, 0.25);
+      /*border-left: 5px solid #029EA3;*/
+      /*padding: .9rem 10px;*/
+      /*font-weight: 600;           */
+      /*border-bottom: 1px dashed #f2f2f2;*/
+      /*border-radius: 0;*/
+    }  
+
+    /*****************************/
+    /* Tables */
+    /*****************************/ 
+    .table thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #dee2e6;
+        border-top: 0px 
+    }
+    @media only screen and (max-width: 800px) {
+      
+    /* Force table to not be like tables anymore */
+    #noMoreTables table, 
+    #noMoreTables thead, 
+    #noMoreTables tbody, 
+    #noMoreTables th, 
+    #noMoreTables td, 
+    #noMoreTables tr { 
+      display: block; 
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #noMoreTables thead tr { 
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+
+    #noMoreTables tr { 
+      border: 1px solid #ccc; 
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+
+    #noMoreTables td { 
+      /* Behave  like a "row" */
+      border: none;
+      border-bottom: 1px solid #eee; 
+      position: relative;
+      padding-left: 50%; 
+      white-space: normal;
+      text-align:left;
+    }
+
+    #noMoreTables td:before { 
+      /* Now like a table header */
+      position: absolute;
+      /* Top/left values mimic padding */
+      top: 6px;
+      left: 6px;
+      width: 45%; 
+      padding-right: 10px; 
+      white-space: nowrap;
+      text-align:left;
+      font-weight: bold;
+    }
+    /*
+    Label the data
+    */
+    #noMoreTables td:before { content: attr(data-title); }
+    }
+    .table td, .table th {
+        padding: .75rem;
+        vertical-align: middle;
+        border-top: 1px solid #dee2e6;
+    }  
+
+
+   /*****************************/
+    /* Tables - More than one per page (i.e in a modal)*/
+    /*****************************/ 
+    .table thead th {
+        vertical-align: bottom;
+        border-bottom: 2px solid #dee2e6;
+        border-top: 0px 
+    }
+    @media only screen and (max-width: 800px) {
+      
+    /* Force table to not be like tables anymore */
+    #noMoreTablesExtra table, 
+    #noMoreTablesExtra thead, 
+    #noMoreTablesExtra tbody, 
+    #noMoreTablesExtra th, 
+    #noMoreTablesExtra td, 
+    #noMoreTablesExtra tr { 
+      display: block; 
+    }
+
+    /* Hide table headers (but not display: none;, for accessibility) */
+    #noMoreTablesExtra thead tr { 
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+
+    #noMoreTablesExtra tr { 
+      border: 1px solid #ccc; 
+      border-radius: 6px;
+      margin-bottom: 20px;
+    }
+
+    #noMoreTablesExtra td { 
+      /* Behave  like a "row" */
+      border: none;
+      border-bottom: 1px solid #eee; 
+      position: relative;
+      padding-left: 50%; 
+      white-space: normal;
+      text-align:left;
+    }
+
+    #noMoreTablesExtra td:before { 
+      /* Now like a table header */
+      position: absolute;
+      /* Top/left values mimic padding */
+      top: 6px;
+      left: 6px;
+      width: 45%; 
+      padding-right: 10px; 
+      white-space: nowrap;
+      text-align:left;
+      font-weight: bold;
+    }
+    /*
+    Label the data
+    */
+    #noMoreTablesExtra td:before { content: attr(data-title); }
+    }
+    .table td, .table th {
+        padding: .75rem;
+        vertical-align: middle;
+        border-top: 1px solid #dee2e6;
+    }  
+
+     /*****************************/
+    /* Login pages */
+    /*****************************/    
+    .loginBg {
+      background-color: #F4F8F9;
+      padding-top: 100px;
+      height: 100vh;
+    }
+    .loginForm {
+      background-color: #fff; 
+      border-radius: 6px;
+      padding-top:30px;
+      padding-bottom: 30px;
+      border: 1px solid #e4ebec; 
+    }
+
+.rainbow {
+   /* Chrome, Safari, Opera */
+  -webkit-animation: rainbow 3s infinite; 
+  
+  /* Internet Explorer */
+  -ms-animation: rainbow 3s infinite;
+  
+  /* Standar Syntax */
+  animation: rainbow 3s infinite; 
+}
+
+/* Chrome, Safari, Opera */
+@-webkit-keyframes rainbow{
+  20%{color: red;}
+  40%{color: yellow;}
+  60%{color: green;}
+  80%{color: blue;}
+  100%{color: orange;}  
+}
+/* Internet Explorer */
+@-ms-keyframes rainbow{
+  20%{color: red;}
+  40%{color: yellow;}
+  60%{color: green;}
+  80%{color: blue;}
+  100%{color: orange;}  
+}
+
+/* Standar Syntax */
+@keyframes rainbow{
+  5%{color: red;}
+  35%{color: yellow;}
+  65%{color: green;}
+  85%{color: blue;}
+  0%{color: orange;}  
+}
